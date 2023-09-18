@@ -31,7 +31,7 @@ namespace BuildUtility
             LogLine(log, $"Build Time: {date}");
             LogLine(log, "");
 
-            // 获取环境变量
+            // 获取命令行参数
             string[] args = Environment.GetCommandLineArgs();
             LogStringArray(log, args, "Arguments: ");
 
